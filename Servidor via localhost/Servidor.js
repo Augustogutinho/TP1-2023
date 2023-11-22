@@ -9,10 +9,10 @@ app.get("/", (requisicao, resposta) => {
 app.get("/barra", (requisicao, resposta) => {
     resposta.render('barra')
 })
-app.get("/tec", (requisicao,resposta) => {
-    resposta.render('tec')
+app.get("/JF", (requisicao,resposta) => {
+    resposta.render('JF')
 })
-app.get("/ps", (requisicao,resposta) => {
-    resposta.render('portugol')
+app.get("/formulario", (requisicao,resposta) => {
+    resposta.render('formulario')
 })
 app.listen(8080)
